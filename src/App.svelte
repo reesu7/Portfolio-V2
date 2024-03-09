@@ -7,6 +7,12 @@
   import Article from "./pages/Article.svelte";
 
   import { Router, Route } from "svelte-routing";
+    import MachineLearning from "./pages/MachineLearning.svelte";
+    import Cp from "./pages/Cp.svelte";
+    import Contact from "./pages/Contact.svelte";
+    import WebDev from "./pages/WebDev.svelte";
+    import About from "./pages/About.svelte";
+    import Experience from "./pages/Experience.svelte";
   export let url = ""; //This property is necessary declare to avoid ignore the Router
 
   // On page load or when changing themes, best to add inline in `head` to avoid FOUC
@@ -44,7 +50,12 @@
       path="articles/how-i-made-my-own-cryptocurrency"
       component={Article}
     />
-
+    <Route path="#cp" component={Cp}></Route>
+    <Route path="#aiml" component={MachineLearning}></Route>
+    <Route path ="#contact" component={Contact}></Route>
+    <Route path ="#experience" component ={Experience}></Route>
+    <Route path = "#about" component ={About}></Route>
+    <Route path ="#web-development" component ={WebDev}></Route>
     <Route path="Facts" component={FunFacts} />
     <Route path="facts" component={FunFacts} />
   </Router>

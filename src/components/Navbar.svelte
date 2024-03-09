@@ -1,14 +1,11 @@
 <script>
-  import { slide, fade } from "svelte/transition";
   import { onMount, createEventDispatcher } from "svelte";
-  import { links, Router, link } from "svelte-routing";
+  import { Router, link } from "svelte-routing";
 
   const dispatch = createEventDispatcher();
 
   let open = false;
   export let theme;
-
-  const scrollThreshold = 10;
 
   const toggleTheme = () => dispatch("toggleTheme");
 
@@ -39,80 +36,16 @@
   class="flex items-center gap-4 px-6 lg:px-10 py-4 top-0 bg-white/80
   dark:bg-gray-900/80 backdrop-blur-md shadow-md fixed w-full z-50"
 >
-  <a
-    aria-label="My logo"
-    href="/#home"
-    data-aos="flip-up"
-    data-aos-duration="700"
-    class="overflow-hidden bg-gradient-to-br from-purple-400 to-red-400 w-6 h-6 relative"
-  >
-    <p
-      class="logo-type text-white dark:text-gray-900 text-3xl font-black absolute bottom-0"
-    >
-      B
-    </p>
-  </a>
-  <a href="/#home" data-aos="flip-up" class="nav-text-home">Ng Bob Shoaun</a>
-
-  <div use:links class="hidden lg:flex gap-9 items-center ml-auto">
+  <a href="/" data-aos="flip-up" class="nav-text-home">Pradeep Rawat</a>
+  <div class="hidden lg:flex gap-9 items-center ml-auto">
     <Router>
-      <a
-        href="/#about"
-        data-aos="zoom-in"
-        data-aos-delay="100"
-        data-aos-duration="700"
-        class="ml-auto nav-text"
-        noroute>About</a
-      >
-      <a
-        href="/#experience"
-        data-aos="zoom-in"
-        data-aos-delay="200"
-        data-aos-duration="700"
-        class="nav-text"
-        noroute>Experience</a
-      >
-      <a
-        href="/#web-development"
-        data-aos="zoom-in"
-        data-aos-delay="300"
-        data-aos-duration="700"
-        class="nav-text"
-        noroute>Web dev</a
-      >
-
-      <a
-        href="/#game-development"
-        data-aos="zoom-in"
-        data-aos-delay="400"
-        data-aos-duration="700"
-        class="nav-text"
-        noroute>Game dev</a
-      >
-      <a
-        href="/#graphic-design"
-        data-aos="zoom-in"
-        data-aos-delay="500"
-        data-aos-duration="700"
-        class="nav-text"
-        noroute>Design</a
-      >
-      <a
-        href="/#contact"
-        data-aos="zoom-in"
-        data-aos-delay="600"
-        data-aos-duration="700"
-        class="nav-text"
-        noroute>Contact</a
-      >
-
-      <a
-        href="/resume"
-        data-aos="zoom-in"
-        data-aos-delay="700"
-        class="nav-text"
-        data-aos-duration="700">Resume</a
-      >
+      <link to="/about" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="700" class="ml-auto nav-text">About</link>
+      <link to="/experience" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="700" class="nav-text">Experience</link>
+      <link to="/web-development" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="700" class="nav-text">Web dev</link>
+      <link to="/aiml" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="700" class="nav-text">AI/ML</link>
+      <link to="/cp" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="700" class="nav-text">CP</link>
+      <link to="/contact" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="700" class="nav-text">Contact</link>
+      <link to="/resume" data-aos="zoom-in" data-aos-delay="700" class="nav-text">Resume</link>
     </Router>
     <button
       title="toggle theme"
@@ -165,7 +98,7 @@
         data-aos="slide-left"
         data-aos-delay="200"
         class="block bg-gray-50 dark:bg-gray-800 p-5"
-        href="/#about"
+        href="#about"
       >
         About Me
       </a>
@@ -174,53 +107,52 @@
         data-aos="slide-right"
         data-aos-delay="200"
         class="block bg-gray-50 dark:bg-gray-800 p-5"
-        href="/#experience">Experience</a
+        href="#experience"
       >
+        Experience
+      </a>
       <a
         on:click={() => (open = false)}
         data-aos="slide-left"
         data-aos-delay="200"
         class="block bg-gray-50 dark:bg-gray-800 p-5"
-        href="/#web-development"
+        href="#web-development"
       >
         Web Development
       </a>
-
       <a
         on:click={() => (open = false)}
         data-aos="slide-right"
         data-aos-delay="200"
         class="block bg-gray-50 dark:bg-gray-800 p-5"
-        href="/#game-development"
+        href="#aiml"
       >
-        Game Development
+        AI/ML
       </a>
-
       <a
         on:click={() => (open = false)}
         data-aos="slide-left"
         data-aos-delay="200"
         class="block bg-gray-50 dark:bg-gray-800 p-5"
-        href="/#graphic-design"
+        href="#cp"
       >
-        Graphic Design
+        CP
       </a>
       <a
         on:click={() => (open = false)}
         data-aos="slide-right"
         data-aos-delay="200"
         class="block bg-gray-50 dark:bg-gray-800 p-5"
-        href="/#contact"
+        href="#contact"
       >
         Contact Me
       </a>
-
       <a
         on:click={() => (open = false)}
         data-aos="slide-left"
         data-aos-delay="200"
         class="block bg-gray-50 dark:bg-gray-800 p-5"
-        href="/resume"
+        href="#resume"
       >
         Resume
       </a>

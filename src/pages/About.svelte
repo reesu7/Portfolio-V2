@@ -33,8 +33,8 @@
             data-aos="slide-right"
             data-aos-duration="500"
             data-aos-delay="200"
-            src="/images/me.webp"
-            alt="A guy (me) posing with a an Amazon t-shirt with the Columbia Icefield in the background."
+            src="/images/pradeep.jpg"
+            alt="Ugly guy"
           />
         </div>
       </div>
@@ -54,9 +54,9 @@
           class="text-gray-600 dark:text-gray-300 lg:text-lg space-y-5"
         >
           <p class="first-letter:text-4xl first-letter:font-bold">
-            What's up? I’m Bob, a software developer with expertise in web
-            development. Currently, I am a Computer Science specialist at
-            University of Toronto.
+            What's up? I’m Pradeep Rawat, a competitive programmer with interest in web
+            development and Machine Learning. Currently, I am a Computer Science Sophomore at
+            Graphic Era University,Dehradun.
           </p>
           <p class="indent-4">
             The passion to create and innovate has always been in me. I strive
@@ -64,9 +64,9 @@
             attention and deliberation.
           </p>
           <p class="indent-4">
-            My expertise include JavaScript, CSS, and the MERN stack. Recently I
-            have been intrigue with blockchain tech and Web3. Aside from coding,
-            I enjoy playing table tennis, video games, and the drums.
+            My expertise include Data Structures and Algorithms,C++,JavaScript and the MERN stack. Recently I
+            have been intrigue with Machine Learning. Aside from coding,
+            I enjoy playing cricket, video games, and listening music.
           </p>
         </div>
         <!-- <Link

@@ -75,14 +75,7 @@ export default [
     tech: "bulma",
     link: "https://bulma.io/",
   },
-  {
-    tech: "graphql",
-    link: "https://graphql.org/",
-  },
-  {
-    tech: "hasura",
-    link: "https://hasura.io/",
-  },
+
   {
     tech: "postgresql",
     link: "https://www.postgresql.org/",
@@ -116,10 +109,6 @@ export default [
     link: "https://www.cplusplus.com/",
   },
   {
-    tech: "webgl",
-    link: "https://get.webgl.org/",
-  },
-  {
     tech: "java",
     link: "https://www.java.com/",
   },
@@ -130,25 +119,5 @@ export default [
   {
     tech: "visual studio",
     link: "https://visualstudio.microsoft.com/",
-  },
-  {
-    tech: "photoshop",
-    link: "https://www.adobe.com/ca/products/photoshop.html",
-  },
-  {
-    tech: "mips assembly",
-    link: "https://en.wikipedia.org/wiki/MIPS_architecture",
-  },
-  {
-    tech: "mars simulator",
-    link: "http://courses.missouristate.edu/kenvollmar/mars/",
-  },
-  {
-    tech: "astro",
-    link: "https://astro.build/",
-  },
-  {
-    tech: "sanity",
-    link: "https://www.sanity.io/",
   },
 ];

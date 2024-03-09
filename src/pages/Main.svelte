@@ -3,8 +3,8 @@
   import About from "./About.svelte";
   import Experience from "./Experience.svelte";
   import WebDev from "./WebDev.svelte";
-  import Designs from "./Designs.svelte";
-  import GameDev from "./GameDev.svelte";
+  import Cp from "./Cp.svelte";
+  import MachineLearning from "./MachineLearning.svelte";
   import Contact from "./Contact.svelte";
 
   export let theme;
@@ -15,7 +15,7 @@
   <About />
   <Experience />
   <WebDev />
-  <GameDev />
-  <Designs />
+  <MachineLearning />
+  <Cp/>
   <Contact />
 </main>

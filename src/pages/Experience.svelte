@@ -39,8 +39,7 @@
       <p
         class="text-base lg:text-lg text-gray-600 dark:text-gray-300 lg:text-left lg:max-w-sm mx-auto max-w-prose lg:mx-0 font-semibold"
       >
-        I have more than 3 years of work experience and counting. Here are some
-        companies I have had the privilege to work at.
+        Currently I am looking for Software development Roles.
       </p>
     </div>
   </header>
