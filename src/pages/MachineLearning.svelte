@@ -1,5 +1,5 @@
 <script>
-  import GameDevProject from "../components/GameDevProject.svelte";
+  //import GameDevProject from "../components/GameDevProject.svelte";
   import SectionNumber from "../components/SectionNumber.svelte";
   import SectionHeader from "../components/SectionHeader.svelte";
   import { onMount } from "svelte";
@@ -31,9 +31,6 @@
     <div
       class="space-y-36 lg:space-y-0 lg:grid lg:grid-cols-8 gap-x-20 gap-y-36"
     >
-      {#each visibleProjects as project}
-        <GameDevProject {project} />
-      {/each}
     </div>
 
     <button
