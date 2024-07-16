@@ -7,7 +7,7 @@
   export let theme;
 
   $: welcomeMessage =
-    theme === "dark" ? 'console.log("Hey!👋")' : 'console.log("Hi!🙋‍♂️")';
+    theme === "dark" ? 'cout<<"Hey!👋"' : 'cout<<"Hi!🙋‍♂️"';
 </script>
 
 <section
@@ -46,7 +46,7 @@
         <TextReveal
           delay={1000}
           once
-          text="I build and design industry standard web experiences. Welcome to my website."
+          text="I do competitive programming and build web apps."
         />
       </p>
 
@@ -56,13 +56,12 @@
         data-aos-duration="700"
         class="text-sm text-gray-700 font-semibold font-mono"
       >
-        <Link
-          to="/resume"
+        <a
+          href="https://linktr.ee/pari_rwt"
           data-aos="zoom-in"
           data-aos-delay="700"
           class="transition-colors px-4 py-1 mr-3 lg:ml-1 inline-block bg-green-200 shadow-green-300/20 shadow-lg border rounded-sm border-green-400 hover:bg-green-300"
-          data-aos-duration="700">View Resume</Link
-        >
+          data-aos-duration="700">View Coding Profiles</a>
         <a
           href="#contact"
           class="transition-colors px-4 py-1 inline-block bg-blue-200 shadow-blue-300/20 shadow-lg hover:bg-blue-300 rounded-sm border border-blue-400"
@@ -81,14 +80,14 @@
     <a
       title="See my GitHub profile"
       aria-label="See my GitHub profile"
-      href="https://github.com/BobShoaun"
+      href="https://github.com/reesu7"
       target="_blank"
       class="block"><i class="fab fa-github" /></a
     >
     <a
       title="Connect on LinkedIn"
       aria-label="Connect on LinkedIn"
-      href="https://www.linkedin.com/in/ngbobshoaun/"
+      href="https://www.linkedin.com/in/pradeep-rawat-466985247/"
       target="_blank"
       class="block"
     >
@@ -105,7 +104,7 @@
     <a
       title="Send me an email"
       aria-label="Send me an email"
-      href="mailto:ngbobshoaun2000@gmail.com"
+      href="mailto:rishurawat1703@gmail.com"
       target="_blank"
       class="block"
     >

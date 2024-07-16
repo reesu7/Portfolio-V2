@@ -39,20 +39,8 @@
   class="flex items-center gap-4 px-6 lg:px-10 py-4 top-0 bg-white/80
   dark:bg-gray-900/80 backdrop-blur-md shadow-md fixed w-full z-50"
 >
-  <a
-    aria-label="My logo"
-    href="/#home"
-    data-aos="flip-up"
-    data-aos-duration="700"
-    class="overflow-hidden bg-gradient-to-br from-purple-400 to-red-400 w-6 h-6 relative"
-  >
-    <p
-      class="logo-type text-white dark:text-gray-900 text-3xl font-black absolute bottom-0"
-    >
-      B
-    </p>
-  </a>
-  <a href="/#home" data-aos="flip-up" class="nav-text-home">Ng Bob Shoaun</a>
+  
+  <a href="/#home" data-aos="flip-up" class="nav-text-home">pradeep_rwt</a>
 
   <div use:links class="hidden lg:flex gap-9 items-center ml-auto">
     <Router>
@@ -87,7 +75,7 @@
         data-aos-delay="400"
         data-aos-duration="700"
         class="nav-text"
-        noroute>Game dev</a
+        noroute>Machine Learning</a
       >
       <a
         href="/#graphic-design"
@@ -95,7 +83,7 @@
         data-aos-delay="500"
         data-aos-duration="700"
         class="nav-text"
-        noroute>Design</a
+        noroute>CP</a
       >
       <a
         href="/#contact"
@@ -193,7 +181,7 @@
         class="block bg-gray-50 dark:bg-gray-800 p-5"
         href="/#game-development"
       >
-        Game Development
+        Machine Learning
       </a>
 
       <a
@@ -203,7 +191,7 @@
         class="block bg-gray-50 dark:bg-gray-800 p-5"
         href="/#graphic-design"
       >
-        Graphic Design
+        CP
       </a>
       <a
         on:click={() => (open = false)}

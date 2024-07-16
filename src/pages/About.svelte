@@ -33,8 +33,8 @@
             data-aos="slide-right"
             data-aos-duration="500"
             data-aos-delay="200"
-            src="/images/me.webp"
-            alt="A guy (me) posing with a an Amazon t-shirt with the Columbia Icefield in the background."
+            src="./images/dp.jpg"
+            alt="Poor guy"
           />
         </div>
       </div>
@@ -54,19 +54,17 @@
           class="text-gray-600 dark:text-gray-300 lg:text-lg space-y-5"
         >
           <p class="first-letter:text-4xl first-letter:font-bold">
-            What's up? I’m Bob, a software developer with expertise in web
-            development. Currently, I am a Computer Science specialist at
-            University of Toronto.
+             Hello , I'm Pradeep Rawat , a competititive programmer and third year engineering student from Graphic Era University,Dehradun major in computer science and engineering.
           </p>
           <p class="indent-4">
-            The passion to create and innovate has always been in me. I strive
-            to build quality, clean, intuitive, and robust software with
-            attention and deliberation.
+            I'm problem solver and has solved more than 1000 problems across different coding platforms 
+            which include codeforces,leetcode,codechef. I'm specialist on codeforces , 3 star coder on codechef and 
+            knight on leetcode .
           </p>
           <p class="indent-4">
-            My expertise include JavaScript, CSS, and the MERN stack. Recently I
-            have been intrigue with blockchain tech and Web3. Aside from coding,
-            I enjoy playing table tennis, video games, and the drums.
+            My expertise include JavaScript,and the MERN stack. Recently I
+            have been intrigue with Machine Learning . Aside from coding,
+            I enjoy playing cricket, video games, and listening music.
           </p>
         </div>
         <!-- <Link

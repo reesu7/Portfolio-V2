@@ -23,7 +23,7 @@
       contactForm.reset();
     } else {
       alert(
-        "Uh oh... message failed to send. You can email me directly at ngbobshoaun2000@gmail.com"
+        "Uh oh... message failed to send. You can email me directly at rishurawat1703@gmail.com"
       );
     }
   }
@@ -69,17 +69,11 @@
 
           <h5 data-aos="fade" class="text-gray-500 dark:text-gray-300 mb-7">
             Shoot me a message and I will get back to you as soon as I can. My
-            emails are
+            emails is
             <button
               class="text-gray-700 dark:text-gray-100 underline"
-              on:click={() => copyToClipboard("ngbobshoaun2000@gmail.com")}
-              >ngbobshoaun2000@gmail.com</button
-            >
-            and
-            <button
-              class="text-gray-700 dark:text-gray-100 underline"
-              on:click={() => copyToClipboard("bobshoaun.ng@mail.utoronto.ca")}
-              >bobshoaun.ng@mail.utoronto.ca</button
+              on:click={() => copyToClipboard("rishurawat1703@gmail.com")}
+              >rishurawat1703@gmail.com</button
             >
           </h5>
         </div>

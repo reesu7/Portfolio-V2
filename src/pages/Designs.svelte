@@ -3,16 +3,10 @@
   import TextReveal from "../components/TextReveal.svelte";
 
   let posters = [
-    "sumfun.webp",
-    "starlight.webp",
-    "prosperity toss.webp",
-    "freaky funhouse.webp",
-    "freaky funhouse ticket front.webp",
-    "unspoken.webp",
-    "lazarus.webp",
-    "closeted lies.webp",
-    "minnie.webp",
-    "better life.webp",
+     "cp1.png",
+     "cp2.png",
+     "cp3.png",
+     "cp4.png"
   ];
   let currentIndex = 0;
 </script>
@@ -31,15 +25,13 @@
     <h2
       class="basis-1/2 lg:text-right tracking-wide text-4xl md:text-5xl lg:text-7xl font-black text-gray-700 dark:text-gray-200 mb-4"
     >
-      <TextReveal text={`GRAPHIC <br> DESIGN`} />
+      <TextReveal text={`COMPETITIVE <br> PROGRAMMING`} />
     </h2>
     <div data-aos="fade-left" data-aos-delay="200" class="basis-1/2">
       <p
         class="text-base lg:text-lg text-gray-600 dark:text-gray-300 lg:text-left lg:max-w-sm mx-auto max-w-prose lg:mx-0 font-semibold"
       >
-        I also have an eye for good typography and graphic designs. Here are
-        some of my work designing various posters for university clubs and
-        events.
+          Here are some of the snippets from my CP profiles.
       </p>
     </div>
   </header>
@@ -85,7 +77,7 @@
           data-aos-offset="100"
           data-aos-delay="200"
           class="border-[0.75rem] md:border-[1.25rem] border-white shadow-2xl"
-          src={`/images/designs/${posters[currentIndex]}`}
+          src={`/images/${posters[currentIndex]}`}
           alt={`${posters[currentIndex]} poster`}
         />
       </div>

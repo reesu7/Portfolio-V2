@@ -111,26 +111,6 @@
       </div>
     </section>
   </div>
-  {#if project.more}
-    <article data-aos="fade-left" class="mt-14">
-      <a
-        href={project.more}
-        class="block relative text-gray-700 dark:text-white cursor-pointer featured-article"
-      >
-        <em class="block mb-2"
-          ><i class="fas fa-newspaper mr-2 text-lg" />Featured Article</em
-        >
-        <hr class="mb-4 border-gray-400" />
-        <h1 class="text-2xl lg:text-3xl font-bold mb-3">
-          How I Made My Own Cryptocurrency
-        </h1>
-        <p class="text-gray-500 dark:text-gray-300">
-          by Ng Bob Shoaun &nbsp;∙&nbsp; 2 August 2021 &nbsp;∙&nbsp; 8 minute
-          read
-        </p>
-      </a>
-    </article>
-  {/if}
 </article>
 
 <style>
